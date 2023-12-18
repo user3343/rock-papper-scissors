@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+.nav {
+  background-color: rgb(1, 7, 44);
+  color: #fff;
+  padding: 3vmin;
+}
+
+.choices,
+.scoreBoard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5vmin;
+}
+
+.scoreBox {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+.score {
+  font-size: 5vmin;
+  padding: none;
+  margin: none;
+}
+
+.scoreBox {
+  font-size: 3vmin;
+  padding: 2vmin;
+}
+
+#msg {
+  margin-top: 5vmin;
+  font-size: 8vmin;
+}
+
+img:active {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+  /* margin: 4vmin; */
+}

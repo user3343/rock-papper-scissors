@@ -3,10 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ROCK PAPER SCISSORS GAME</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="nav">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./images/rock.jpg" alt="" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./images/paper.jpg" alt="" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.jpg" alt="" />
+      </div>
+    </div>
+    <div class="scoreBoard">
+      <div class="scoreBox" id="userScore">
+        <p id="user-score">0</p>
+        <p>you</p>
+      </div>
+      <div class="scoreBox" id="ComputerScore">
+        <p id="comp-score">0</p>
+        <p>Comp.</p>
+      </div>
+    </div>
+    <div class="msgContainer">
+      <div id="msg">Play your move</div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
